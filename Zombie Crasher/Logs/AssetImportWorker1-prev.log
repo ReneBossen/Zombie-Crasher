@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Unity Games/Zombie Crasher
+C:/Unity Games/UnityGITHUB/Zombie Crasher
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57732
-Successfully changed project path to: C:/Unity Games/Zombie Crasher
-C:/Unity Games/Zombie Crasher
+62097
+Successfully changed project path to: C:/Unity Games/UnityGITHUB/Zombie Crasher
+C:/Unity Games/UnityGITHUB/Zombie Crasher
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Unity Games/Zombie Crasher
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15252] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 2031580438 [EditorId] 2031580438 [Version] 1048832 [Id] WindowsEditor(7,Renes_Baerbar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11600] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 1977877669 [EditorId] 1977877669 [Version] 1048832 [Id] WindowsEditor(7,Renes_Baerbar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15252] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 2031580438 [EditorId] 2031580438 [Version] 1048832 [Id] WindowsEditor(7,Renes_Baerbar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11600] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 1977877669 [EditorId] 1977877669 [Version] 1048832 [Id] WindowsEditor(7,Renes_Baerbar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 6.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity Games/Zombie Crasher/Assets
+[Subsystems] Discovering subsystems at path C:/Unity Games/UnityGITHUB/Zombie Crasher/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,50 +70,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011323 seconds.
-- Loaded All Assemblies, in  0.510 seconds
+Registered in 0.018042 seconds.
+- Loaded All Assemblies, in  0.703 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.364 seconds
-Domain Reload Profiling: 872ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1298ms
+	BeginReloadAssembly (195ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (203ms)
-		LoadAssemblies (169ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (192ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (198ms)
-				TypeCache.ScanAssembly (179ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (365ms)
+	FinalizeReload (597ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (301ms)
+		SetupLoadedEditorAssemblies (495ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (121ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (199ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,8 +121,8 @@ Domain Reload Profiling: 872ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.842 seconds
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.129 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -131,84 +131,1697 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.618 seconds
-Domain Reload Profiling: 1459ms
-	BeginReloadAssembly (175ms)
+- Finished resetting the current domain, in  1.029 seconds
+Domain Reload Profiling: 2155ms
+	BeginReloadAssembly (294ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (410ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (522ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (207ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (618ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (254ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1029ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
+		SetupLoadedEditorAssemblies (751ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (314ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (547ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3541.
-Memory consumption went from 121.0 MB to 121.0 MB.
-Total: 5.861200 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.190200 ms MarkObjects: 5.050000 ms  DeleteObjects: 0.154900 ms)
+Memory consumption went from 121.1 MB to 121.0 MB.
+Total: 5.372800 ms (FindLiveObjects: 0.394000 ms CreateObjectMapping: 0.122400 ms MarkObjects: 4.692300 ms  DeleteObjects: 0.161800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 68508.406809 seconds.
-  path: Assets/Models/Military/Models/Vehicles
-  artifactKey: Guid(3efd8b06b04188d42b095419e817cbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Military/Models/Vehicles using Guid(3efd8b06b04188d42b095419e817cbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf9528e93b33b51fe94860b80fc70c8') in 0.003418 seconds
+  Time since last request: 129395.859170 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_EasternSoldier_Brown.mat
+  artifactKey: Guid(a05e6296ab3353d499847684fbdfb528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_EasternSoldier_Brown.mat using Guid(a05e6296ab3353d499847684fbdfb528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c45919560872b787061fa7e60439934') in 0.251443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Models/Military/Materials/Office_Damaged_c.mat
+  artifactKey: Guid(a901c4b0d357b994780c149d2f43878c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Office_Damaged_c.mat using Guid(a901c4b0d357b994780c149d2f43878c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e335eb05947a1a25cc9226af65ab327') in 0.042342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Military/Materials/Apartment_Damaged_c.mat
+  artifactKey: Guid(9128b363e06bed9479c1798c7a77e8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Apartment_Damaged_c.mat using Guid(9128b363e06bed9479c1798c7a77e8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38e187421c24012ac002ec9e88dbff98') in 0.054016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/UI/Button_BG_round.png
+  artifactKey: Guid(d7a853379eb5cde46a10890cb8f92d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/UI/Button_BG_round.png using Guid(d7a853379eb5cde46a10890cb8f92d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c07489e0ddfa0caa78461b13e90c902') in 0.109217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Military/Materials/Attack_Heli_c.mat
+  artifactKey: Guid(cc68583b4c7caa44691e63af435d62c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Attack_Heli_c.mat using Guid(cc68583b4c7caa44691e63af435d62c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fcee78ec6b8283e16f4681f103cc476') in 0.046048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Military/Materials/Barracks_c.mat
+  artifactKey: Guid(ec30f86423fb94145bc622986e32900e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Barracks_c.mat using Guid(ec30f86423fb94145bc622986e32900e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c43f0ed4a46578ddef241a5fbb0102e5') in 0.027804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/UI/Icon_timer.png
+  artifactKey: Guid(387bc71784a6a3b4fa6a2aba3d59e1e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/UI/Icon_timer.png using Guid(387bc71784a6a3b4fa6a2aba3d59e1e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fd2fb521e8cc596a20d247de4a39fa1') in 0.053813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Buttons/ButtonIcons_Pause.png
+  artifactKey: Guid(5166d09597a8f744f81f36864336eccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Buttons/ButtonIcons_Pause.png using Guid(5166d09597a8f744f81f36864336eccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0d78e2da1e3559c679248acba78008e') in 0.059620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/UI/Window_BG_2.png
+  artifactKey: Guid(e1ec7642c9640024581d69478f945815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/UI/Window_BG_2.png using Guid(e1ec7642c9640024581d69478f945815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac189f7dc718c465c4eeec7709043cba') in 0.061710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sounds/ZombieSmash1.mp3
+  artifactKey: Guid(0136b4d80fc4f6f4ca4ce874d3c8e2bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/ZombieSmash1.mp3 using Guid(0136b4d80fc4f6f4ca4ce874d3c8e2bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6740938b59a497fd834e796d4685c695') in 0.131176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sounds/explosion.wav
+  artifactKey: Guid(263064efdf2249c4d9c831942f5d6cd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/explosion.wav using Guid(263064efdf2249c4d9c831942f5d6cd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6008f2e8aebcad3bcce36dae1fc90cd6') in 0.122019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Medic_Black.mat
+  artifactKey: Guid(bfccbf77e1c4c9f42a3ae421551fe4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Medic_Black.mat using Guid(bfccbf77e1c4c9f42a3ae421551fe4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4890477471150a80a7b14c99e7a7c24b') in 0.052639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Medic_Brown.mat
+  artifactKey: Guid(a9135893891120e4bb47e94097718678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Medic_Brown.mat using Guid(a9135893891120e4bb47e94097718678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff937790d528d8c70dc2d54153a4b2d3') in 0.050717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_SpecialForces01_Black.mat
+  artifactKey: Guid(cd39598ef4365c048b8d2e18754e0ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_SpecialForces01_Black.mat using Guid(cd39598ef4365c048b8d2e18754e0ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5ca4aa2ce1d81f0667f364f4b906f86') in 0.050795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Soldier01_White.mat
+  artifactKey: Guid(6f4190d04f9f10a45a9b406180c1d1f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Soldier01_White.mat using Guid(6f4190d04f9f10a45a9b406180c1d1f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d933765afb94a544fa580ab57903162') in 0.045272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Military/Materials/Army_Truck_c.mat
+  artifactKey: Guid(606f9eb65c2a7b649b74f0368813c56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Army_Truck_c.mat using Guid(606f9eb65c2a7b649b74f0368813c56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fc7108bd9a7cb2861674e4cf5c74d96') in 0.049979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/Player Scripts/BaseController.cs
+  artifactKey: Guid(81e75939143f01f4aabda0adf253106b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player Scripts/BaseController.cs using Guid(81e75939143f01f4aabda0adf253106b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4165a33af40997d4cde969c372ab4fe1') in 0.020684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Materials/Apc_01_b.mat
+  artifactKey: Guid(35246465d30476b46aa5de66eb06cff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Apc_01_b.mat using Guid(35246465d30476b46aa5de66eb06cff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aec49a5fee3562f11bea69e5dd2cbc74') in 0.042472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/UI/Bar_01.png
+  artifactKey: Guid(5ed0b5581bada4a4e95f1430f4a52788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/UI/Bar_01.png using Guid(5ed0b5581bada4a4e95f1430f4a52788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ecfcea0f2fcc678ee8838cb8a903126') in 0.055260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Pilot_White.mat
+  artifactKey: Guid(9ebda7ea8cfa7024785132e4e4994a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Pilot_White.mat using Guid(9ebda7ea8cfa7024785132e4e4994a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '530032b37f3d08ebab2ec1013339ae6d') in 0.048180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_FemaleSoldier_Black.mat
+  artifactKey: Guid(dedbd61d7c20c21478f9d783ef1c83da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_FemaleSoldier_Black.mat using Guid(dedbd61d7c20c21478f9d783ef1c83da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69edd7d0257049b73bd714230f2da875') in 0.047397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_General_Brown.mat
+  artifactKey: Guid(fdcb06a5dba0df542aa8d32fd1f9c28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_General_Brown.mat using Guid(fdcb06a5dba0df542aa8d32fd1f9c28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1428abc71966161203c3b8d6a60ce81a') in 0.047208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Military/Materials/Palm_Tree.mat
+  artifactKey: Guid(d6956844756e1dc4790546fbd9fcf416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Palm_Tree.mat using Guid(d6956844756e1dc4790546fbd9fcf416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7d6c66a1abb350f6714d7bdca9f495f') in 0.023124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_SpecialForces01_White.mat
+  artifactKey: Guid(784571e181e7b3945b028465bff9e8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_SpecialForces01_White.mat using Guid(784571e181e7b3945b028465bff9e8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be6923a1dd45d50e22ac2cc7a665e548') in 0.047424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Military/Textures/Apc_01_a.png
+  artifactKey: Guid(37fc5d80e67316d499be98a3f6fdcb6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Apc_01_a.png using Guid(37fc5d80e67316d499be98a3f6fdcb6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f73e3eb012976b8a5aa5428b7949ea48') in 0.047968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/Military/Materials/Small_Heli_b.mat
+  artifactKey: Guid(fd0dc94e229dead49a3cabe7d4ebc793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Small_Heli_b.mat using Guid(fd0dc94e229dead49a3cabe7d4ebc793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5360e9d75a1f6c8c1d9b9ec3dcce24ea') in 0.044350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Weapon_Grenades.mat
+  artifactKey: Guid(5d59da2f284dabb4c9414332e0450fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Weapon_Grenades.mat using Guid(5d59da2f284dabb4c9414332e0450fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '926d053e5507bf3a5023db874da4b369') in 0.040932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Terrorist03_White.mat
+  artifactKey: Guid(63cc4d2342346724ab68a28f3212dbfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Terrorist03_White.mat using Guid(63cc4d2342346724ab68a28f3212dbfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f49f10352ec58a1ad7b671c6c7c66be8') in 0.041902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_SpecialForces04_White.mat
+  artifactKey: Guid(a1ac2904bf4a10440ae2b6e3385bb14a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_SpecialForces04_White.mat using Guid(a1ac2904bf4a10440ae2b6e3385bb14a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '564cf99b8863d13e4c32f90fae729159') in 0.051063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Terrorist01_White.mat
+  artifactKey: Guid(b4dc3f74967522b4194efde43875ca64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Terrorist01_White.mat using Guid(b4dc3f74967522b4194efde43875ca64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc30dec799ae9a2cce5e169ac514065f') in 0.040803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Textures/Armor_Car_b.png
+  artifactKey: Guid(a2f2cd951d3581f4d8d5fcc8967561bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Armor_Car_b.png using Guid(a2f2cd951d3581f4d8d5fcc8967561bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e154eebd501145ca61a6eb23f1472874') in 0.058419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Zombies/Zombie.controller
+  artifactKey: Guid(1cc5fbef4f1070e429636b0141924a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Zombie.controller using Guid(1cc5fbef4f1070e429636b0141924a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222d37437116fe29f906253191d1a1d4') in 0.030555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_TrainingSoldier_Black.mat
+  artifactKey: Guid(64fd263159321b148b853a0e27d93585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_TrainingSoldier_Black.mat using Guid(64fd263159321b148b853a0e27d93585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f227bf53fcc4a9a956ab27bd60190b30') in 0.043076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sounds/WallExplosion.mp3
+  artifactKey: Guid(c55b3b02d34b09a419cd40b470bdfcc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/WallExplosion.mp3 using Guid(c55b3b02d34b09a419cd40b470bdfcc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f6a446c1fd8e0fb99263e219ca807c1') in 0.105128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Military/Materials/Small_Heli_a.mat
+  artifactKey: Guid(25d146694d8db64429d83a984dd11a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Small_Heli_a.mat using Guid(25d146694d8db64429d83a984dd11a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8620483dfd5426a7e1ab4bf3621c324f') in 0.044589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Materials/Fence_Alpha.mat
+  artifactKey: Guid(6de43088a311afd40ba211f7794c48aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Fence_Alpha.mat using Guid(6de43088a311afd40ba211f7794c48aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef8871d19a02d1a63baf32dc23249f9c') in 0.048653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Military/Textures/Barracks_c.png
+  artifactKey: Guid(dc66f4423e2d56a4b9c9f5104aad12ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Barracks_c.png using Guid(dc66f4423e2d56a4b9c9f5104aad12ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99494428267b93c81c9ade4842c28b9d') in 0.047313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_GasMask_Brown.png
+  artifactKey: Guid(339f570106a0a0c4f9dde0f0660494bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_GasMask_Brown.png using Guid(339f570106a0a0c4f9dde0f0660494bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '126111b4088226582024b9cf10ca75fb') in 0.056747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Textures/Fortification.png
+  artifactKey: Guid(ca51918c6e238cd4f854685f65b137de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Fortification.png using Guid(ca51918c6e238cd4f854685f65b137de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df7ef15b99000bd48de122df3dc9a882') in 0.048742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_Female_Brown.png
+  artifactKey: Guid(d58e2663e3af4f64ebe5885d69ae31f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_Female_Brown.png using Guid(d58e2663e3af4f64ebe5885d69ae31f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5509708d49de7d44583dbaadd2160cf7') in 0.044519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Military/Textures/Road_Asphalt.png
+  artifactKey: Guid(92edf5e5342550246a98f632e94ddf52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Road_Asphalt.png using Guid(92edf5e5342550246a98f632e94ddf52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35c1bc8782ca68f66afb8d7b126339e3') in 0.054168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Military/Textures/Mud_Hut.png
+  artifactKey: Guid(43e396cd79d61ae4b93b9a1b8fa75cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Mud_Hut.png using Guid(43e396cd79d61ae4b93b9a1b8fa75cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bfd920c61090d6f83f7609b18dd20ef') in 0.040892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_JungleCommando_Black.png
+  artifactKey: Guid(feee7b25083a5104c9ed2a3543fa1f3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_JungleCommando_Black.png using Guid(feee7b25083a5104c9ed2a3543fa1f3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30aa43a8751b3d335315aca98e05aa96') in 0.045469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Military/Textures/Office_Damaged_b.png
+  artifactKey: Guid(01ad80ca026f0e74b94d3f995e3779a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Office_Damaged_b.png using Guid(01ad80ca026f0e74b94d3f995e3779a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af7b1f5af22d68aee22aa3221fc3331c') in 0.046495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Military/Textures/Attack_Heli_a.png
+  artifactKey: Guid(a641e0730edcf03459f220816b07b376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Attack_Heli_a.png using Guid(a641e0730edcf03459f220816b07b376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '882d83801cf759418130e446b3fe2c2c') in 0.042870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_BombDisposal_Black.png
+  artifactKey: Guid(54ac042f404229442ae5599e9caf5a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_BombDisposal_Black.png using Guid(54ac042f404229442ae5599e9caf5a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82c93e0a0d36ec0eee9435f08eab3bea') in 0.033607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_JungleCommando_Brown.png
+  artifactKey: Guid(a930af6ef6d08384e9e8ced4644a021a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_JungleCommando_Brown.png using Guid(a930af6ef6d08384e9e8ced4644a021a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '903389f66706d0114fd8872f349afbef') in 0.058323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_SpecialForces02_Brown.mat
+  artifactKey: Guid(5453c771a3930794884b7c8371ac3f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_SpecialForces02_Brown.mat using Guid(5453c771a3930794884b7c8371ac3f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9eb2b32e50af71a1b2c79e31b83267b') in 0.037126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_Terrorist_04_Brown.png
+  artifactKey: Guid(260b4d1b81e1241429ca1b9b45f8e75c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_Terrorist_04_Brown.png using Guid(260b4d1b81e1241429ca1b9b45f8e75c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ec8509e6f33d697d1ed8ecf9e51706d') in 0.036636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_02_Brown.png
+  artifactKey: Guid(b6665a293efcac34686124769fc47b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_02_Brown.png using Guid(b6665a293efcac34686124769fc47b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a752df10f63d5e7a70c4e149492dfb8') in 0.040979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Models/Military/Textures/Small_Heli_b.png
+  artifactKey: Guid(ca7fcd6b3a01c9548bfbe9f54d6723ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Small_Heli_b.png using Guid(ca7fcd6b3a01c9548bfbe9f54d6723ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c04108cb5246d5949267845f750ab3f9') in 0.036827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Textures/Tank_02_c.png
+  artifactKey: Guid(1e8ce43b217e8af44b392b6e3b176a57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Tank_02_c.png using Guid(1e8ce43b217e8af44b392b6e3b176a57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b6e68deeac162ee23a592735d4273e7') in 0.041414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Military/Textures/Tent_Medic.png
+  artifactKey: Guid(13548efffea4ba647973853a2703de81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Tent_Medic.png using Guid(13548efffea4ba647973853a2703de81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c68211e769cba52ae3ba4935fcd23676') in 0.039186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_Soldier_04_Brown.png
+  artifactKey: Guid(f6ef1d1e0100ec14c99ce1fecbd0df3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_Soldier_04_Brown.png using Guid(f6ef1d1e0100ec14c99ce1fecbd0df3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dceaf0ad186416e791a207a9a7ddbfa') in 0.043534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Military/Textures/Tent.png
+  artifactKey: Guid(619aa9fef7157524bb26fd11aa3101fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Tent.png using Guid(619aa9fef7157524bb26fd11aa3101fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46e93ef92e35764c87981c524c769db9') in 0.048988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_03_Black.png
+  artifactKey: Guid(0d1e1c3562b2fa748a597ee1f079a03b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_03_Black.png using Guid(0d1e1c3562b2fa748a597ee1f079a03b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89a834ec542aa1a542cd81f1894a5b25') in 0.046588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_White.png
+  artifactKey: Guid(69bdf2ddebebe414091a6c1231463211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_White.png using Guid(69bdf2ddebebe414091a6c1231463211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd82240de064695ebdcca667b935b6109') in 0.045758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Military/Textures/Tank_01_b.png
+  artifactKey: Guid(f611e40b3fc5dc14cad82cf632068e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Tank_01_b.png using Guid(f611e40b3fc5dc14cad82cf632068e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d8c4e754c03052c094765d5f581df57') in 0.043557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_03_Brown.png
+  artifactKey: Guid(4c8194f27d5244041a79f884191090a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/SimpleMilitary_SpecialForces_03_Brown.png using Guid(4c8194f27d5244041a79f884191090a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70e037a5466fcd94664db240efc6c039') in 0.038481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Military/Textures/Attack_Heli_c.png
+  artifactKey: Guid(0e81b92eae2982740ad1c01230682479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Attack_Heli_c.png using Guid(0e81b92eae2982740ad1c01230682479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20b8796468ea8cd25d305c95051da814') in 0.037136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Military/Textures/Weapons_AssultRifle02.png
+  artifactKey: Guid(8ebfe4ca58226f84292acf76ed041bf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Weapons_AssultRifle02.png using Guid(8ebfe4ca58226f84292acf76ed041bf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56db1e5daa7917b744d0da6fc8b392bd') in 0.050428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Zombies/Materials/SimpleZombies_RiotCop_Blue.mat
+  artifactKey: Guid(b62f2d64b789742438feeb835966bb5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Materials/SimpleZombies_RiotCop_Blue.mat using Guid(b62f2d64b789742438feeb835966bb5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91fdc2a21de0e466084386d090d0b224') in 0.043740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Zombies/Materials/SimpleZombies_Police_Blue.mat
+  artifactKey: Guid(cab05d3f9b3a8d54cbff77363335ca61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Materials/SimpleZombies_Police_Blue.mat using Guid(cab05d3f9b3a8d54cbff77363335ca61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c9898ed0c5f1f3285f9b3d56740b7ba') in 0.050123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Zombies/Materials/SimpleZombies_Punk_Blue.mat
+  artifactKey: Guid(e8a9e612db0627b49954812b46aa7cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Materials/SimpleZombies_Punk_Blue.mat using Guid(e8a9e612db0627b49954812b46aa7cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7b96ad28ec76d5787e7951c1768fb35') in 0.045310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Zombies/Models/SimpleZombie.fbx
+  artifactKey: Guid(69a526a296b75074db3310a32ab2ba19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Models/SimpleZombie.fbx using Guid(69a526a296b75074db3310a32ab2ba19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '689b2a64f5ada18aa792e73b9a642b4d') in 0.158610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Military/Textures/Weapons_Rifle.png
+  artifactKey: Guid(56d74edd9fb4e9443a42bb33b7c48394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Weapons_Rifle.png using Guid(56d74edd9fb4e9443a42bb33b7c48394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '604661d509914c6de7ed6cac4455b8e7') in 0.046742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Models/Zombies/Materials/SimpleZombies_RiotCop_Green.mat
+  artifactKey: Guid(c72c525b44bc38340a525ee0d34a8451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Materials/SimpleZombies_RiotCop_Green.mat using Guid(c72c525b44bc38340a525ee0d34a8451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85caa3734aadbb04c8c17233351e4217') in 0.050162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Zombies/Materials/SimpleZombies_Punk_Grey.mat
+  artifactKey: Guid(d0fc24a7ffff2464490a57489bd1a18d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Materials/SimpleZombies_Punk_Grey.mat using Guid(d0fc24a7ffff2464490a57489bd1a18d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26dfc2852e8c090f0299afa11768eec5') in 0.049845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_02_Grey.prefab
+  artifactKey: Guid(1a58669c88d9b4c4d8ba56ddae5245ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_02_Grey.prefab using Guid(1a58669c88d9b4c4d8ba56ddae5245ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c082df8d8bfed65abcf4d020abe13ec6') in 0.041956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_03_Grey.png
+  artifactKey: Guid(ca2bbcf287828a3499f98c9d63fd7eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_03_Grey.png using Guid(ca2bbcf287828a3499f98c9d63fd7eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13fb63f34db34c1ca370829b355422e2') in 0.042184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_03_Blue.prefab
+  artifactKey: Guid(fa1ca881135b8124cb5795f8b13489af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_03_Blue.prefab using Guid(fa1ca881135b8124cb5795f8b13489af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ca65dcaa5a65dab9d883bc465a7c9aa') in 0.033454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_BeachBabe_Blue.png
+  artifactKey: Guid(5f408b6906eafff409e854b8d08d279a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_BeachBabe_Blue.png using Guid(5f408b6906eafff409e854b8d08d279a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '659b191e5bbe8243c5c2befe557de38e') in 0.038556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Zombies/Materials/SimpleZombies_BeachBabe_Grey.mat
+  artifactKey: Guid(5c7c519d8c1157d4889207f161a8a6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Materials/SimpleZombies_BeachBabe_Grey.mat using Guid(5c7c519d8c1157d4889207f161a8a6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e294c464c42e81a7460255c597160a2d') in 0.034983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_02_Green.prefab
+  artifactKey: Guid(5457d38a52a140b41adc0f7dac2869f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_02_Green.prefab using Guid(5457d38a52a140b41adc0f7dac2869f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9382b8ad3e88305985f091b3fdbafa29') in 0.037284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Military/Materials/Shop_Damaged_a.mat
+  artifactKey: Guid(f8b97b32345123a4f83769b95a2e9927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Shop_Damaged_a.mat using Guid(f8b97b32345123a4f83769b95a2e9927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6520fd27ab73d55e3650a49582c8f8e') in 0.033414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Textures/Crate_Barrel_Box.png
+  artifactKey: Guid(22ee111f76853fc43bb6a9efa382b8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Crate_Barrel_Box.png using Guid(22ee111f76853fc43bb6a9efa382b8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e03dbc3b184277354a1c959b5ced40a') in 0.049309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_02_Grey.png
+  artifactKey: Guid(293c866a9dad5a34cba5f92fe110cc01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_02_Grey.png using Guid(293c866a9dad5a34cba5f92fe110cc01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fb5bb3d48f4431719a6169ad662c741') in 0.039585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_FemaleMedic_Black.mat
+  artifactKey: Guid(3696d9fb13b4c0a4c8a2226f04f51614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_FemaleMedic_Black.mat using Guid(3696d9fb13b4c0a4c8a2226f04f51614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f86ea3acc332961abf2bef2224fee239') in 0.032075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Military/Textures/Barracks_b.png
+  artifactKey: Guid(d51279d7307d3794e875e722fbf48af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Barracks_b.png using Guid(d51279d7307d3794e875e722fbf48af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1e21a38f451da04d5217d04c55d73eb') in 0.042196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Weapon_AssultRifle01.mat
+  artifactKey: Guid(5b86731bf9ef79c4da5245d379527a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Weapon_AssultRifle01.mat using Guid(5b86731bf9ef79c4da5245d379527a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2fbe495947e2354ee9da8957e0efa0b') in 0.031871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Pilot_Black.mat
+  artifactKey: Guid(1128dc1931894364ca1606a9e545681b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Pilot_Black.mat using Guid(1128dc1931894364ca1606a9e545681b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a517f1c791d4df7a400318db7f20da61') in 0.030484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Models/Characters/SimpleMilitary_Weapons.controller
+  artifactKey: Guid(f52e7a3da212fa740ae7bf1307766aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Characters/SimpleMilitary_Weapons.controller using Guid(f52e7a3da212fa740ae7bf1307766aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d7b1a1832ffbc6a64122cd4f4cd4455') in 0.049733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Models/Environement/building_02.fbx
+  artifactKey: Guid(303de19e9eb81a143848d5c3e75a8f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/building_02.fbx using Guid(303de19e9eb81a143848d5c3e75a8f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e65a34e8cd865925b7525224c4a90efc') in 0.047948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_RiotCop_Blue.png
+  artifactKey: Guid(57e8c94cf3e06d844b8a08b7cab12f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_RiotCop_Blue.png using Guid(57e8c94cf3e06d844b8a08b7cab12f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc37275c8fc28b833d03b7fb291ed142') in 0.040423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_Nazi_Grey.png
+  artifactKey: Guid(6385cee4fb80fd042ad37f98d8648711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_Nazi_Grey.png using Guid(6385cee4fb80fd042ad37f98d8648711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75a59a926a338d229a803fd87ea26297') in 0.042492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Military/Models/Characters/SimpleMilitary_Characters.fbx
+  artifactKey: Guid(255377ae1700518438342ed74889e165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Characters/SimpleMilitary_Characters.fbx using Guid(255377ae1700518438342ed74889e165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b70b80ff66623544cfa39085dabd0f83') in 0.096368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Military/Models/Environement/crate_02.fbx
+  artifactKey: Guid(23ad938f244e20844a6a278a7131ed77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/crate_02.fbx using Guid(23ad938f244e20844a6a278a7131ed77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '700ad4ea0eaa895b6a8f7908aca40e66') in 0.040153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/FX/Blood Effect.prefab
+  artifactKey: Guid(01905950d6bb84877a984f64b83d6c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/FX/Blood Effect.prefab using Guid(01905950d6bb84877a984f64b83d6c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9053c8f6615f5bd0750b835789461a0b') in 0.034729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/Military/Materials/Apartment_Damaged_b.mat
+  artifactKey: Guid(79f665d55ea316041a4d2429ec7cb83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Apartment_Damaged_b.mat using Guid(79f665d55ea316041a4d2429ec7cb83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0be037df6bc37f8ce23755b3f25a9822') in 0.035883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/UI/Health Icon.png
+  artifactKey: Guid(136507e5c3bf02045b13ed44eb14223d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/UI/Health Icon.png using Guid(136507e5c3bf02045b13ed44eb14223d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20eed81a7af9b988a5c4876749cf0c6d') in 0.052544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_Sherif_Blue.prefab
+  artifactKey: Guid(ee8dbad1aa4819f4193611aeba7a881a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_Sherif_Blue.prefab using Guid(ee8dbad1aa4819f4193611aeba7a881a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7310f21fb771d06eefa511016fb5039') in 0.035614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_Sherif_Green.prefab
+  artifactKey: Guid(647813f4e47bf604297a871aa0cc3514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_Sherif_Green.prefab using Guid(647813f4e47bf604297a871aa0cc3514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c61f4509be3c5ee1feb5456068847b12') in 0.040293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Military/Models/Environement/rubble_01.fbx
+  artifactKey: Guid(388c9520eab4853468566f8bb80f1376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/rubble_01.fbx using Guid(388c9520eab4853468566f8bb80f1376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7e950bb2a5182c6238b03074146fc0d') in 0.043473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Military/Models/Environement/metal_box_02.fbx
+  artifactKey: Guid(dcce3577f5fc9924b8a071acf12332c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/metal_box_02.fbx using Guid(dcce3577f5fc9924b8a071acf12332c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e430a612782e460c419b2d44219003d2') in 0.041794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Models/Environement/mud_hut_01.fbx
+  artifactKey: Guid(b4ece58f1511692409cace6273b87eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/mud_hut_01.fbx using Guid(b4ece58f1511692409cace6273b87eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75d1cae66c7a91e5f53b4e2fff24cbc0') in 0.039122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Military/Models/Environement/rock_brown_02.fbx
+  artifactKey: Guid(2aaaa3e559787f149b626c988e013880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/rock_brown_02.fbx using Guid(2aaaa3e559787f149b626c988e013880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea32dbdaf7f5297d17ac224c96abdf4b') in 0.041400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Models/Environement/rock_grey_02.fbx
+  artifactKey: Guid(7b6423980cdecbb4eb98f2c829c59366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/rock_grey_02.fbx using Guid(7b6423980cdecbb4eb98f2c829c59366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7288e5fa8a9778bcce0c13fa2fe096d') in 0.049567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Military/Models/Environement/palm_01.fbx
+  artifactKey: Guid(71884f88cc05c9443b83782a51590a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/palm_01.fbx using Guid(71884f88cc05c9443b83782a51590a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '880f0f79afb8a580e1f810104e360b32') in 0.047124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Models/Environement/road_Dirt_Asphalt_Transition.fbx
+  artifactKey: Guid(601d4f7bbaafd5d488d6db8ecc9d61c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/road_Dirt_Asphalt_Transition.fbx using Guid(601d4f7bbaafd5d488d6db8ecc9d61c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08da3e56b9f0922e85d0ea111bf1d3ff') in 0.046458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_Nazi_Blue.png
+  artifactKey: Guid(5333be0e86778f649a239a32b8249235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_Nazi_Blue.png using Guid(5333be0e86778f649a239a32b8249235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06d980fa68131aba4146e23347d1ad76') in 0.047052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Military/Models/Environement/barrel_03.fbx
+  artifactKey: Guid(61b708774df1b8b42a2355ee2a2c9887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/barrel_03.fbx using Guid(61b708774df1b8b42a2355ee2a2c9887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74ba2abf0a14789b80cc6f4c5d21c3cd') in 0.034340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_Nazi_Blue.prefab
+  artifactKey: Guid(f97bc252a35c5f54cac4b35464022ade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_Nazi_Blue.prefab using Guid(f97bc252a35c5f54cac4b35464022ade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f5c401797aae0fc2b0afd9afb2e5f4d') in 0.039444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_BusinessMan_Grey.png
+  artifactKey: Guid(a0136cd47143cbf42a0718e5e39b5afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_BusinessMan_Grey.png using Guid(a0136cd47143cbf42a0718e5e39b5afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97291ff64be42ffd02dad82656b83bae') in 0.043022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_BusinessMan_Grey.prefab
+  artifactKey: Guid(f42b71589b9527d4f9b5063b3851b3aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_BusinessMan_Grey.prefab using Guid(f42b71589b9527d4f9b5063b3851b3aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a49f38b013524d23ac1f6d6baaf729a') in 0.033764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_EasternSoldier_Black.prefab
+  artifactKey: Guid(2eba0bd9bd220644a96c71c6e4efd7cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_EasternSoldier_Black.prefab using Guid(2eba0bd9bd220644a96c71c6e4efd7cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87128ff0098e85a20706a8ea6f5d37c6') in 0.041117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_EasternSoldier_Brown.prefab
+  artifactKey: Guid(2ba71b64aadac4948a83aa0d4af9b2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_EasternSoldier_Brown.prefab using Guid(2ba71b64aadac4948a83aa0d4af9b2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c677dbc5ba2bd48b4ceddacf989389ff') in 0.036655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_FemaleMedic_Brown.prefab
+  artifactKey: Guid(479128860835a714e8c101500a49fcec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_FemaleMedic_Brown.prefab using Guid(479128860835a714e8c101500a49fcec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02c84bca3687b02623ce4450fd1903fd') in 0.038859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_BombDisposal_Black.prefab
+  artifactKey: Guid(b668a01628081db4e83b735a1559a514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_BombDisposal_Black.prefab using Guid(b668a01628081db4e83b735a1559a514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d513a38b737432228828529de0478f6') in 0.040112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_BombDisposal_White.prefab
+  artifactKey: Guid(758c39aeb90286744af16453059e0a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_BombDisposal_White.prefab using Guid(758c39aeb90286744af16453059e0a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78837c4f665705f0fd247e2ce656aa31') in 0.041442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Military/Models/Environement/spool_02.fbx
+  artifactKey: Guid(c6d50ebe5824fa542b84d4d84d98f219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/spool_02.fbx using Guid(c6d50ebe5824fa542b84d4d84d98f219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1968b29b44125be40f6f557f520553ee') in 0.036244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Military/Models/Environement/target_01.fbx
+  artifactKey: Guid(a32a96904150a4e49a7dddc65ef320b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/target_01.fbx using Guid(a32a96904150a4e49a7dddc65ef320b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3bde1b99bd278065e8c1b2502e101da') in 0.037347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Military/Models/Vehicles/apc_02_body.fbx
+  artifactKey: Guid(fd6dcefd0c6f50d4ebccf676b01194d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Vehicles/apc_02_body.fbx using Guid(fd6dcefd0c6f50d4ebccf676b01194d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22e51699c12473a56f597e25a4ad47c5') in 0.048694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Military/Models/Vehicles/small_heli.fbx
+  artifactKey: Guid(55f59590bab21f743999d9511df4811c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Vehicles/small_heli.fbx using Guid(55f59590bab21f743999d9511df4811c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '515926bf634465ff98298d34a4b86794') in 0.046930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_EasternSoldier_White.prefab
+  artifactKey: Guid(d02ba641eb611ec4382c80d1bcff3ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_EasternSoldier_White.prefab using Guid(d02ba641eb611ec4382c80d1bcff3ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88d22998767c76c58a6085f50d1488ee') in 0.038893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Military/Models/Environement/flood_lights.fbx
+  artifactKey: Guid(230bc925622c54e47a61119fb38d099d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/flood_lights.fbx using Guid(230bc925622c54e47a61119fb38d099d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6999613e0699ccc60f8fdfba86339635') in 0.039799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Military/Models/Environement/road_Dirt_Long.fbx
+  artifactKey: Guid(306a5f62a7aa5f442a17013afe19d6cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/road_Dirt_Long.fbx using Guid(306a5f62a7aa5f442a17013afe19d6cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2e34065f43f365785be691bafc0438b') in 0.033860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Models/Environement/fuel_tank_large.fbx
+  artifactKey: Guid(78609260395dcab43b80013803e64a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/fuel_tank_large.fbx using Guid(78609260395dcab43b80013803e64a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9c206c6ba4ba198a477b220879f0b57') in 0.039171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/ammo_box_05.prefab
+  artifactKey: Guid(c7ffc9244d0901943a8aa0b1ecc5dd45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/ammo_box_05.prefab using Guid(c7ffc9244d0901943a8aa0b1ecc5dd45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e49346532138504c93b18bf4f104a20') in 0.036679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_SpecialForces01_White.prefab
+  artifactKey: Guid(14d284addaba6f64ba82cd055d2992e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_SpecialForces01_White.prefab using Guid(14d284addaba6f64ba82cd055d2992e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5de29b42700c0c012a3d6dc2e899e35') in 0.036654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_TrainingSoldier_Brown.prefab
+  artifactKey: Guid(2ec64277d7c8deb43a4e8d4e6ed62c2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_TrainingSoldier_Brown.prefab using Guid(2ec64277d7c8deb43a4e8d4e6ed62c2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d40d6ae5db878695f840d5f66171ac8') in 0.038541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Soldier01_Brown.prefab
+  artifactKey: Guid(2f9f4b5f1d2ff114eb4fb5278c56bad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Soldier01_Brown.prefab using Guid(2f9f4b5f1d2ff114eb4fb5278c56bad6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '522b1b0d659d7e64f25c2cf498ea51bf') in 0.035174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Soldier01_Black.prefab
+  artifactKey: Guid(0897a0a0b9c62d54db252dddf14f9049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Soldier01_Black.prefab using Guid(0897a0a0b9c62d54db252dddf14f9049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '212a8eb832931d35cb59df4d4acd276b') in 0.041152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_JungleCommando_Brown.prefab
+  artifactKey: Guid(ca6376c51c2e5024183ddb5bce6cb103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_JungleCommando_Brown.prefab using Guid(ca6376c51c2e5024183ddb5bce6cb103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '275fd1a9b393513c77dcf385c09151a6') in 0.038219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/ammo_box_03.prefab
+  artifactKey: Guid(2bc26bbdd9953cc40bbe7edcf201c4d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/ammo_box_03.prefab using Guid(2bc26bbdd9953cc40bbe7edcf201c4d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c620516c2bda0b52e44b08399dcedae') in 0.031651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/ammo_box_04.prefab
+  artifactKey: Guid(d90750ce3daa43046b0a399aaeb872f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/ammo_box_04.prefab using Guid(d90750ce3daa43046b0a399aaeb872f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89caf58d30619a35349a9e535a38a031') in 0.032715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Terrorist03_Brown.prefab
+  artifactKey: Guid(51a2022ff06b8dd4e9e4a8fb57d5de12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Terrorist03_Brown.prefab using Guid(51a2022ff06b8dd4e9e4a8fb57d5de12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48dfafbeff694204cd56fe22be1069e3') in 0.040748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Terrorist01_White.prefab
+  artifactKey: Guid(b774df97d60a4994d9c424034a16fe89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Terrorist01_White.prefab using Guid(b774df97d60a4994d9c424034a16fe89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff7bf2c40328b5875c6b3c9abd381a50') in 0.043042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Terrorist02_Brown.prefab
+  artifactKey: Guid(29ac3d739fde5ef49b4c675a268d307d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Terrorist02_Brown.prefab using Guid(29ac3d739fde5ef49b4c675a268d307d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9eccf747307274e043d838e32fbd733e') in 0.040326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Military/Models/Vehicles/tank_02_body.fbx
+  artifactKey: Guid(aca18e265d6673245927f27b8939797b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Vehicles/tank_02_body.fbx using Guid(aca18e265d6673245927f27b8939797b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2c95fe93efeb761b9ebc7008d1aec4c') in 0.046273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Zombies/Prefabs/SimpleZombies_Punk_Blue.prefab
+  artifactKey: Guid(be9dcebf65cae7b4487f0a95bcc59ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Prefabs/SimpleZombies_Punk_Blue.prefab using Guid(be9dcebf65cae7b4487f0a95bcc59ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8631eddf4efd1f81f157c9f64917ffd') in 0.038645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/ground_Asphalt.prefab
+  artifactKey: Guid(457511b0145949e44b261e235e2d1ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/ground_Asphalt.prefab using Guid(457511b0145949e44b261e235e2d1ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '501f5d0e13dfaafd3ebd353755445a7b') in 0.029752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/office_damaged_02_a.prefab
+  artifactKey: Guid(68d28c44f4e64684aa1101dcd45422ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/office_damaged_02_a.prefab using Guid(68d28c44f4e64684aa1101dcd45422ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3deb6b8cbf4f019e529cc7e53df238e7') in 0.038121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/heli_pad.prefab
+  artifactKey: Guid(f1c6387c427bfcf4fb2f44ce7bec6a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/heli_pad.prefab using Guid(f1c6387c427bfcf4fb2f44ce7bec6a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f831b6b04ded75aece7d985730075062') in 0.040451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/building_02.prefab
+  artifactKey: Guid(7106d2ce3aad6584db1eda13b37f73db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/building_02.prefab using Guid(7106d2ce3aad6584db1eda13b37f73db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32062ab5db113d3758992731c8e84bc9') in 0.035343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/apartment_damaged_02_c.prefab
+  artifactKey: Guid(406dd3aa4c620664cb74ab5987fb1046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/apartment_damaged_02_c.prefab using Guid(406dd3aa4c620664cb74ab5987fb1046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47bfda58efa467d4a3a39fd86074a2b2') in 0.032849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/apartment_damaged_01_a.prefab
+  artifactKey: Guid(4ece8de17e572c948b02a304cc9b6522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/apartment_damaged_01_a.prefab using Guid(4ece8de17e572c948b02a304cc9b6522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a78fbfc0272d79d7a111bfe336954df4') in 0.035598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/office_damaged_02_c.prefab
+  artifactKey: Guid(6468a734a1d22124a884a49df72e6bfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/office_damaged_02_c.prefab using Guid(6468a734a1d22124a884a49df72e6bfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb498587f61c97b8390704f94b18753e') in 0.038603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/crate_02.prefab
+  artifactKey: Guid(d4e1fc0463797dd458d76c87254eef7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/crate_02.prefab using Guid(d4e1fc0463797dd458d76c87254eef7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9b9fdebec8c6bec830f91a8f475ff60') in 0.032497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/road_Asphalt_Dirt_Transition.prefab
+  artifactKey: Guid(0c08e6524f1ebdd44b4be5d3af6eff5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/road_Asphalt_Dirt_Transition.prefab using Guid(0c08e6524f1ebdd44b4be5d3af6eff5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f1a7f85ed753b12203c0900d9c53e8c') in 0.036782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/mg_stand.prefab
+  artifactKey: Guid(fe5d2dcdf2e38be4b92f8ffb381b5323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/mg_stand.prefab using Guid(fe5d2dcdf2e38be4b92f8ffb381b5323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35a073aee811d3f3f8edb2815202581e') in 0.032307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Military/Models/Environement/crate_01.fbx
+  artifactKey: Guid(0f7a75dac28ee9642abe8043bafc6428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/crate_01.fbx using Guid(0f7a75dac28ee9642abe8043bafc6428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '616c1c1ef8f3e9fc27d57ec16f0faa72') in 0.032973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Pilot_Black.prefab
+  artifactKey: Guid(861c228cc8bad4d4ebf0317b65270343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_Pilot_Black.prefab using Guid(861c228cc8bad4d4ebf0317b65270343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a22744bb157416b7e7f5645384e50e3') in 0.035201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/metal_box_03.prefab
+  artifactKey: Guid(a7f4510462a197f4d8e97288b308a99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/metal_box_03.prefab using Guid(a7f4510462a197f4d8e97288b308a99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b9ba59475b43449cb680c685145e24e') in 0.033055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Materials/Troop_Car_c.mat
+  artifactKey: Guid(2751912d35337954f85aaf1b68146189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Troop_Car_c.mat using Guid(2751912d35337954f85aaf1b68146189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '712d1cac3dd1b2ba4f55de1e559627ca') in 0.031699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/road_Asphalt_Short.prefab
+  artifactKey: Guid(7aabb6b1f32d46b4da7a576a786a2a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/road_Asphalt_Short.prefab using Guid(7aabb6b1f32d46b4da7a576a786a2a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbeb7fcabc6fa99aba3349ed99c6fafd') in 0.035906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/rubble_03.prefab
+  artifactKey: Guid(ab1a5d59341cd0544bf60089a45d6817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/rubble_03.prefab using Guid(ab1a5d59341cd0544bf60089a45d6817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a4b167059b54e9f617742c8b9474714') in 0.037217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_02_a.prefab
+  artifactKey: Guid(3764f40f46fab2a40affda0d35aac14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_02_a.prefab using Guid(3764f40f46fab2a40affda0d35aac14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6e92aef683fd671322da0ede6097cfd') in 0.038697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/rock_grey_02.prefab
+  artifactKey: Guid(901894caaded3bc4eb510717742c09cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/rock_grey_02.prefab using Guid(901894caaded3bc4eb510717742c09cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec92fa710960d14e202e5ff9cc0ec034') in 0.040042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_01_a.prefab
+  artifactKey: Guid(16923535714c52840a3d4a2d263e5359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_01_a.prefab using Guid(16923535714c52840a3d4a2d263e5359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74782d911ba556384581b54ec09b0af3') in 0.043841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/store_damaged_01_c.prefab
+  artifactKey: Guid(355dfef9ba9d5bf49b47809a2ca51a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/store_damaged_01_c.prefab using Guid(355dfef9ba9d5bf49b47809a2ca51a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5fb207759536bca010b539b861a7789') in 0.036631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Military/Prefabs/FX/Blood_FX.prefab
+  artifactKey: Guid(cd42474ce5935eb49bd2bf50dfbebc4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/FX/Blood_FX.prefab using Guid(cd42474ce5935eb49bd2bf50dfbebc4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f75731dab4f98543cca35fb4d26636b') in 0.025216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Military/Prefabs/FX/FX_Steam 1.prefab
+  artifactKey: Guid(1e696d16848496248839924d87795efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/FX/FX_Steam 1.prefab using Guid(1e696d16848496248839924d87795efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e7eb96ee94df9b04ccb8c1843736e8d') in 0.122961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/road_Dirt_Bend.prefab
+  artifactKey: Guid(2a9fbda9bfeb47046bd96878e9eaed51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/road_Dirt_Bend.prefab using Guid(2a9fbda9bfeb47046bd96878e9eaed51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b74f830ac37994714af462f32c3a9226') in 0.036897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/attack_heli_a.prefab
+  artifactKey: Guid(ef96e3ea73734ac48ab02e84dc53ce24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/attack_heli_a.prefab using Guid(ef96e3ea73734ac48ab02e84dc53ce24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae0df2867c93687f3a06e1698e3eef45') in 0.032927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/armor_car_a.prefab
+  artifactKey: Guid(dc20c88bb01f0eb479db09c7b8833bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/armor_car_a.prefab using Guid(dc20c88bb01f0eb479db09c7b8833bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84e21378c5b5570b12531dc16b482e90') in 0.032583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/road_Dirt_Town_Transition.prefab
+  artifactKey: Guid(1f7886fb3c96c0141a169f3d9e52ebda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/road_Dirt_Town_Transition.prefab using Guid(1f7886fb3c96c0141a169f3d9e52ebda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c693edfd31a2a2725d62665c520b58c') in 0.036838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_02_c.prefab
+  artifactKey: Guid(78512cd8eed0fd84d8844bdbe121a625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_02_c.prefab using Guid(78512cd8eed0fd84d8844bdbe121a625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb8a1551534b53ae0bceb1abd5a44aa2') in 0.034061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_01_b.prefab
+  artifactKey: Guid(6e7fcd75dc88d6640aac3149cdbaed8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_01_b.prefab using Guid(6e7fcd75dc88d6640aac3149cdbaed8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf57f2226b4565492a18bd5a693d93dd') in 0.031908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/small_heli_a.prefab
+  artifactKey: Guid(d18f8a18e400b4f4a880ed34037ff101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/small_heli_a.prefab using Guid(d18f8a18e400b4f4a880ed34037ff101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fc718229649664c3ed98e54996f9e73') in 0.033854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/troop_car_a.prefab
+  artifactKey: Guid(b967a221e8d0cee4d84b5a2eebd8814c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/troop_car_a.prefab using Guid(b967a221e8d0cee4d84b5a2eebd8814c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b7af6aaf114cf274b73b3123d179b6d') in 0.028803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/troop_car_c.prefab
+  artifactKey: Guid(e28653fd6db76db4b9bbb68f33e6f38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/troop_car_c.prefab using Guid(e28653fd6db76db4b9bbb68f33e6f38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd048f26a761d26df2cf5a615ce516a09') in 0.030980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_02_b.prefab
+  artifactKey: Guid(a36779319c808c140bbff8ca86e1b5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_02_b.prefab using Guid(a36779319c808c140bbff8ca86e1b5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aef10148fa944aeaac0b0e157275a15a') in 0.031407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/wall_damaged_03.prefab
+  artifactKey: Guid(6d3d37ac01091ff40869f949bbe99862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/wall_damaged_03.prefab using Guid(6d3d37ac01091ff40869f949bbe99862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01f5aaa83a11d864578ad9486a6e96b4') in 0.034447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_b.prefab
+  artifactKey: Guid(b06455aa5911e7f4da9d9b12c3228232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_b.prefab using Guid(b06455aa5911e7f4da9d9b12c3228232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '708c8d1df07bc2e09d82ac0c94a514aa') in 0.032053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/road_Dirt_Corner.prefab
+  artifactKey: Guid(9ae987b4b22703146ab27785fa0d26a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/road_Dirt_Corner.prefab using Guid(9ae987b4b22703146ab27785fa0d26a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2c95fb93dc9f14ff631826449b9a3e4') in 0.030910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Military/Models/Environement/heli_pad.fbx
+  artifactKey: Guid(d20e45a6391e50246b0f4c496bebadcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Models/Environement/heli_pad.fbx using Guid(d20e45a6391e50246b0f4c496bebadcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '554a2f945bf73fb18fafec4a79064217') in 0.037274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Military/Prefabs/Environments/power_pole.prefab
+  artifactKey: Guid(f4a980adffb8fdf489d1cd307803800b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Environments/power_pole.prefab using Guid(f4a980adffb8fdf489d1cd307803800b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb0b78bab450d201e554532497b1a3e6') in 0.029097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Military/Materials/Armor_Car_b.mat
+  artifactKey: Guid(786e0d33592206c47be0ba31547076f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/Armor_Car_b.mat using Guid(786e0d33592206c47be0ba31547076f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7ac1d0152d1f62bfef6de194d4f2773') in 0.034150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/Military/Materials/SimpleMilitary_Terrorist02_Brown.mat
+  artifactKey: Guid(eebdc302f4cb69342b02a45461e3304e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Materials/SimpleMilitary_Terrorist02_Brown.mat using Guid(eebdc302f4cb69342b02a45461e3304e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fc9c59f663301dcdecd9914fd27c4e0') in 0.039505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Military/Prefabs/Characters/SimpleMilitary_FemaleSoldier_White.prefab
+  artifactKey: Guid(9b40a19513ee46b4bbc191b9cc22e0d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Prefabs/Characters/SimpleMilitary_FemaleSoldier_White.prefab using Guid(9b40a19513ee46b4bbc191b9cc22e0d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd486f9147f18100d0c4dafa72ac6dd63') in 0.037242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 209
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sounds/click.mp3
+  artifactKey: Guid(1bdf8a7333ced424a9f644c0f07ecf6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/click.mp3 using Guid(1bdf8a7333ced424a9f644c0f07ecf6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15fa5e3ccf797768b59981f837340899') in 0.100117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Zombies/Textures/SimpleZombies_Punk_Grey.png
+  artifactKey: Guid(716fdb924df34024db859b97f4325274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Zombies/Textures/SimpleZombies_Punk_Grey.png using Guid(716fdb924df34024db859b97f4325274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5701525ae4c1b5268ad0d260b9d2b255') in 0.044885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Military/Textures/Army_Truck_b.png
+  artifactKey: Guid(18ddf65b1999cd648b65c2fbee2c3443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Army_Truck_b.png using Guid(18ddf65b1999cd648b65c2fbee2c3443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14089d1befb355ca8a2b9a88317534b5') in 0.040380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Military/Textures/Palm_Tree.png
+  artifactKey: Guid(3e496c352fa212f4e830997afba96ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Military/Textures/Palm_Tree.png using Guid(3e496c352fa212f4e830997afba96ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6944f5d78528f4f6ae5585a256438c00') in 0.036513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 88.434466 seconds.
+  path: Assets/Scripts/Player Scripts/PlayerController.cs
+  artifactKey: Guid(f7386352d4d0c4f4a9b80565a2ec6f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/PlayerController.cs using Guid(f7386352d4d0c4f4a9b80565a2ec6f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e63c790a53ddf0a4706bb7e3508941d') in 0.000936 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Models/Military/Models/Vehicles/apc_01_body.fbx
-  artifactKey: Guid(5b23976471ffd0045bf1c5b0542197dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Military/Models/Vehicles/apc_01_body.fbx using Guid(5b23976471ffd0045bf1c5b0542197dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48ccbbbb6fa3b98c5eab5c4404c604d') in 0.286554 seconds
+  Time since last request: 0.401678 seconds.
+  path: Assets/Scripts/Player Scripts/PlayerController.cs
+  artifactKey: Guid(f7386352d4d0c4f4a9b80565a2ec6f0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player Scripts/PlayerController.cs using Guid(f7386352d4d0c4f4a9b80565a2ec6f0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4aacef0bede9873231160202c9a4fcdf') in 0.028831 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.516 seconds
+Domain Reload Profiling: 2184ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1517ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (0 B). Loaded Objects now: 3553.
-Memory consumption went from 71.8 MB to 71.8 MB.
-Total: 3.840500 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.080200 ms MarkObjects: 3.464100 ms  DeleteObjects: 0.011300 ms)
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3548.
+Memory consumption went from 119.9 MB to 119.9 MB.
+Total: 4.995000 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.145300 ms MarkObjects: 4.376400 ms  DeleteObjects: 0.101800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -225,3 +1838,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.146149 seconds.
+  path: Assets/Scripts/Player Scripts/PlayerController.cs
+  artifactKey: Guid(f7386352d4d0c4f4a9b80565a2ec6f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/PlayerController.cs using Guid(f7386352d4d0c4f4a9b80565a2ec6f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0398c1272c18fce9e531cf1598415152') in 0.002908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
