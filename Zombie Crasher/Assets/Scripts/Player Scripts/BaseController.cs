@@ -19,10 +19,10 @@ public class BaseController : MonoBehaviour
     private AudioSource soundManager;
 
 
-    private void Awake()
+    private void Start()
     {
         soundManager = GetComponent<AudioSource>();
-        speed = new Vector3 (0.0f, 0.0f, z_Speed);
+        speed = new Vector3(0.0f, 0.0f, z_Speed);
     }
 
     protected void MoveLeft()
@@ -39,7 +39,7 @@ public class BaseController : MonoBehaviour
     }
     protected void MoveNormal()
     {
-        if(is_Slow)
+        if (is_Slow)
         {
             is_Slow = false;
             soundManager.Stop();
@@ -47,12 +47,12 @@ public class BaseController : MonoBehaviour
             soundManager.volume = 0.3f;
             soundManager.Play();
         }
-        speed = new Vector3 (speed.x, 0f, speed.z);
+        speed = new Vector3(speed.x, 0f, speed.z);
     }
 
     protected void MoveSlow()
     {
-        if(!is_Slow)
+        if (!is_Slow)
         {
             is_Slow = true;
             soundManager.Stop();
