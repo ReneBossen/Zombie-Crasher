@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundBlock : MonoBehaviour
 {
     [SerializeField] private Transform otherBlock;
-    [SerializeField] private float halfLength = 100f;
+    public float halfLength = 100f;
 
     private Transform player;
     private float endOffset = 10f;
