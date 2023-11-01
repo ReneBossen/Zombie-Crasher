@@ -11,7 +11,8 @@ public class GameplayController : MonoBehaviour
     [SerializeField] private float min_ObstacleDelay = 10f, max_ObstacleDelay = 40f;
     private float halfGroundSize;
     private BaseController playerController;
-    private bool firstSpawn = true;
+
+
     private void Awake()
     {
         MakeInstance();
@@ -40,22 +41,29 @@ public class GameplayController : MonoBehaviour
 
     private IEnumerator GenerateObstacles()
     {
-        Debug.Log("Coroutine er startet");
+        //Hvis playerController ikke findes, break coroutine og giv fejl.
         if (playerController == null)
         {
             Debug.Log("Player Controller er ikke initialiseret");
             yield break; // Stop coroutine, da playerController ikke er initialiseret.
         }
-        float timer;
-        if (firstSpawn)
+
+        //Hvis playerController.speed.z == 0, stop coroutine og lav en ny for at teste om speed er blevet højere
+        if (playerController.speed.z == 0)
         {
-            firstSpawn = false;
-            timer = 2f;
+            Debug.Log("playerController speed er 0, GenerateObstacles kaldes igen for at checke");
+            StartCoroutine("GenerateObstacles");
+            yield break;
         }
-        else
-        {
-            timer = Random.Range(min_ObstacleDelay, max_ObstacleDelay) / playerController.speed.z;
+
+        /*
+        //Afvent om playerController.speed.z bliver højere end 0, før der spawnes obstacles
+        while(playerController.speed.z == 0) {
+            Debug.Log("playerController.speed.z == 0. Waiting for speed to rise");
         }
+        */
+
+        float timer = Random.Range(min_ObstacleDelay, max_ObstacleDelay) / playerController.speed.z;
 
         Debug.Log("min_ObstacleDelay: " + min_ObstacleDelay);
         Debug.Log("max_ObstacleDelay: " + max_ObstacleDelay);
