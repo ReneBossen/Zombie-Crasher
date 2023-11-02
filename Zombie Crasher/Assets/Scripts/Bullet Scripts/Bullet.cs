@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
     public void Move(float speed)
     {
         myBody.AddForce(transform.forward.normalized * speed);
-        Invoke("Deactivate", 5f);
+        Invoke("Deactivate", 2f);
     }
 
     private void Deactivate()

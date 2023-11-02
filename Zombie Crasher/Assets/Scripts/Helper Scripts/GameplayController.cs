@@ -47,21 +47,22 @@ public class GameplayController : MonoBehaviour
             Debug.Log("Player Controller er ikke initialiseret");
             yield break; // Stop coroutine, da playerController ikke er initialiseret.
         }
-/*
-        //Hvis playerController.speed.z == 0, stop coroutine og lav en ny for at teste om speed er blevet højere
-        if (playerController.speed.z == 0)
-        {
-            Debug.Log("playerController speed er 0, GenerateObstacles kaldes igen for at checke");
-            StartCoroutine("GenerateObstacles");
-            yield break;
-        }
-*/
-        
+        /*
+                //Hvis playerController.speed.z == 0, stop coroutine og lav en ny for at teste om speed er blevet højere
+                if (playerController.speed.z == 0)
+                {
+                    Debug.Log("playerController speed er 0, GenerateObstacles kaldes igen for at checke");
+                    StartCoroutine("GenerateObstacles");
+                    yield break;
+                }
+        */
+
         //Afvent om playerController.speed.z bliver højere end 0, før der spawnes obstacles
-        while(playerController.speed.z == 0) {
+        while (playerController.speed.z == 0)
+        {
             Debug.Log("playerController.speed.z == 0. Waiting for speed to rise");
         }
-        
+
 
         float timer = Random.Range(min_ObstacleDelay, max_ObstacleDelay) / playerController.speed.z;
 
