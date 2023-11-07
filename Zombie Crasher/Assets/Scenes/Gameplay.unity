@@ -2390,7 +2390,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1418722167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4049,9 +4049,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Tank
       objectReference: {fileID: 0}
-    - target: {fileID: 7368794028035260244, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
-      propertyPath: healthValue
-      value: 100
+    - target: {fileID: 4091346539391717152, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198928527874549220, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198928527874549220, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8347789713401862734, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
       propertyPath: m_LocalPosition.x

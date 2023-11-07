@@ -1683,7 +1683,7 @@ GameObject:
   - component: {fileID: 1932564863}
   - component: {fileID: 1932564862}
   m_Layer: 5
-  m_Name: Play Icon
+  m_Name: Share Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1758,6 +1758,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Tank
       objectReference: {fileID: 0}
+    - target: {fileID: 4091346539391717152, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198928527874549220, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4339682028507939396, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.7
@@ -1788,6 +1796,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7368794028035260244, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
       propertyPath: healthValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957309677191194851, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8347789713401862734, guid: 863dbc85497f66444b3e0763dc99d493, type: 3}
