@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 958573629482879148}
   - component: {fileID: 4198928527874549220}
   - component: {fileID: 3231030848426338158}
+  - component: {fileID: 7368794028035260244}
   m_Layer: 0
   m_Name: Player Tank
   m_TagString: Player
@@ -205,6 +206,19 @@ MonoBehaviour:
   bullet_StartPoint: {fileID: 2154867564181349457}
   bullet_Prefab: {fileID: 6839364878346179819, guid: 7979a6fe1f5e1ce4199692163cf1d68e, type: 3}
   shootFX: {fileID: 7242531425843721813}
+  canShoot: 0
+--- !u!114 &7368794028035260244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4091346539391717152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d46a47fc1be6d479866a370b97a77c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4339682028507814092
 PrefabInstance:
   m_ObjectHideFlags: 0

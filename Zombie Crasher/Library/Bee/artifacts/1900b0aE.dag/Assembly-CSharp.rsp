@@ -332,6 +332,7 @@
 -r:"E:/Unity/Projects/2022.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -360,12 +361,15 @@
 "Assets/Scripts/Block Scripts/GroundBlock.cs"
 "Assets/Scripts/Bullet Scripts/Bullet.cs"
 "Assets/Scripts/Camera Scripts/SmoothFollow.cs"
+"Assets/Scripts/Helper Scripts/AnimationEvents.cs"
 "Assets/Scripts/Helper Scripts/GameplayController.cs"
+"Assets/Scripts/Helper Scripts/Main Menu Controller.cs"
 "Assets/Scripts/Obstacle Scripts/Destroy After Time.cs"
 "Assets/Scripts/Obstacle Scripts/Explosive Obstacle.cs"
 "Assets/Scripts/Obstacle Scripts/Zombie.cs"
 "Assets/Scripts/Player Scripts/BaseController.cs"
 "Assets/Scripts/Player Scripts/PlayerController.cs"
+"Assets/Scripts/Player Scripts/PlayerHealth.cs"
 -langversion:9.0
 
 /deterministic

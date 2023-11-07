@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
     public void Move(float speed)
     {
         myBody.AddForce(transform.forward.normalized * speed);
-        Invoke("Deactivate", 2f);
+        Invoke("Deactivate", 1f);
     }
 
     private void Deactivate()
@@ -24,7 +24,7 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Obstacle")
+        if (other.gameObject.tag == "Obstacle" || other.gameObject.tag == "Zombie")
         {
             gameObject.SetActive(false);
         }

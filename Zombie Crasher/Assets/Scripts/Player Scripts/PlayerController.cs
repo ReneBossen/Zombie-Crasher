@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : BaseController
 {
     private Rigidbody myBody;
+    private Animator shootSliderAnim;
 
     [SerializeField] private Transform bullet_StartPoint;
     [SerializeField] private GameObject bullet_Prefab;
     [SerializeField] private ParticleSystem shootFX;
+    [HideInInspector] public bool canShoot;
 
     private void Awake()
     {
         myBody = GetComponent<Rigidbody>();
+        shootSliderAnim = GameObject.Find("Fire Bar").GetComponent<Animator>();
+
+        canShoot = true;
     }
 
     private void Update()
@@ -97,12 +103,20 @@ public class PlayerController : BaseController
 
     public void ShootingControl()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Time.timeScale != 0)
         {
-            GameObject bullet = Instantiate(bullet_Prefab, bullet_StartPoint.position, Quaternion.identity);
-            bullet.GetComponent<Bullet>().Move(2000f);
+            if (canShoot)
+            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    GameObject bullet = Instantiate(bullet_Prefab, bullet_StartPoint.position, Quaternion.identity);
+                    bullet.GetComponent<Bullet>().Move(2000f);
+                    shootFX.Play();
 
-            shootFX.Play();
+                    canShoot = false;
+                    shootSliderAnim.Play("Fill");
+                }
+            }
         }
     }
 }

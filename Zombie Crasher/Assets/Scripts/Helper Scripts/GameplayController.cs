@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameplayController : MonoBehaviour
 {
@@ -9,8 +11,15 @@ public class GameplayController : MonoBehaviour
     [SerializeField] private GameObject[] zombiePrefabs;
     [SerializeField] private Transform[] lanes;
     [SerializeField] private float min_ObstacleDelay = 10f, max_ObstacleDelay = 40f;
+    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private GameObject gameoverPanel;
+    [SerializeField] private TextMeshProUGUI final_Score;
+    private PlayerHealth playerHealth;
     private float halfGroundSize;
     private BaseController playerController;
+
+    private TextMeshProUGUI score_Text;
+    private int zombie_Kill_Count;
 
 
     private void Awake()
@@ -22,9 +31,11 @@ public class GameplayController : MonoBehaviour
     {
         halfGroundSize = GameObject.Find("GroundBlock Main").GetComponent<GroundBlock>().halfLength;
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<BaseController>();
+        playerHealth = playerController.GetComponent<PlayerHealth>();
 
         StartCoroutine("GenerateObstacles");
 
+        score_Text = GameObject.Find("Score Text").GetComponent<TextMeshProUGUI>();
     }
 
     private void MakeInstance()
@@ -139,5 +150,54 @@ public class GameplayController : MonoBehaviour
             Vector3 shift = new Vector3(Random.Range(-0.5f, 0.5f), 0f, Random.Range(1f, 10f) * i);
             Instantiate(zombiePrefabs[Random.Range(0, zombiePrefabs.Length)], position + shift * i, Quaternion.identity);
         }
+    }
+
+    public void IncreaseScore()
+    {
+        zombie_Kill_Count++;
+        score_Text.text = zombie_Kill_Count.ToString();
+    }
+
+    public void ResetScore()
+    {
+        zombie_Kill_Count = 0;
+        score_Text.text = zombie_Kill_Count.ToString();
+    }
+
+    public void PauseGame()
+    {
+        pausePanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame()
+    {
+        pausePanel.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void ExitGame()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Gameover()
+    {
+        Time.timeScale = 0;
+        gameoverPanel.SetActive(true);
+        final_Score.text = "Killed: " + zombie_Kill_Count.ToString();
+    }
+
+    public void RestartGame()
+    {
+        ResetScore();
+        playerHealth.RestartGame();
+
+        Time.timeScale = 1;
+
+        SceneManager.LoadScene("Gameplay");
+        gameoverPanel.SetActive(false);
+        pausePanel.SetActive(false);
     }
 }
