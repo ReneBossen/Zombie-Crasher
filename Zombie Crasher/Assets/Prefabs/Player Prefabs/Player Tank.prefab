@@ -95,9 +95,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: 42f1e6d0fd3792440935dd726f569e52, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -105,8 +105,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.74221444
+  MaxDistance: 24.416742
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -195,14 +195,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: {x: 0, y: 0, z: 0}
   x_Speed: 8
-  z_Speed: 15
+  z_Speed: 10
   accelerated: 15
-  deaccelerated: 10
+  deaccelerated: 5
   low_Sound_Pitch: 0
   normal_Sound_Pitch: 0
   high_Sound_Pitch: 0
-  engine_On_Sound: {fileID: 0}
-  engine_Off_Sound: {fileID: 0}
+  engine_On_Sound: {fileID: 8300000, guid: 42f1e6d0fd3792440935dd726f569e52, type: 3}
+  engine_Off_Sound: {fileID: 8300000, guid: 5cb8aa4bd1aa3cd4f9a69a0b717db006, type: 3}
   bullet_StartPoint: {fileID: 2154867564181349457}
   bullet_Prefab: {fileID: 6839364878346179819, guid: 7979a6fe1f5e1ce4199692163cf1d68e, type: 3}
   shootFX: {fileID: 7242531425843721813}
@@ -219,6 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d46a47fc1be6d479866a370b97a77c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthValue: 100
 --- !u!1001 &4339682028507814092
 PrefabInstance:
   m_ObjectHideFlags: 0

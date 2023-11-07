@@ -22,6 +22,6 @@ public class AnimationEvents : MonoBehaviour
 
     private void CameraStartGame()
     {
-        SceneManager.LoadScene("GamePlay");
+        SceneManager.LoadScene("Gameplay");
     }
 }

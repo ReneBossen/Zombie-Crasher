@@ -42,38 +42,34 @@ public class PlayerController : BaseController
 
     private void ControllMovement()
     {
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            MoveLeft();
-        }
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
+            //Debug.Log("Højre");
             MoveRight();
         }
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        else if (Input.GetAxisRaw("Horizontal") < 0)
         {
+            //Debug.Log("Venstre");
+            MoveLeft();
+        }
+        else
+        {
+            //Debug.Log("Kører lige frem");
+            MoveStraight();
+        }
+        if (Input.GetAxisRaw("Vertical") > 0)
+        {
+            //Debug.Log("Frem");
             MoveFast();
         }
-        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        else if (Input.GetAxisRaw("Vertical") < 0)
         {
+            //Debug.Log("Tilbage");
             MoveSlow();
         }
-
-        //Reset to standard movement on button release
-        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        else
         {
-            MoveStraight();
-        }
-        if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            MoveStraight();
-        }
-        if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
-        {
-            MoveNormal();
-        }
-        if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-        {
+            //Debug.Log("Kører normal hastighed");
             MoveNormal();
         }
     }

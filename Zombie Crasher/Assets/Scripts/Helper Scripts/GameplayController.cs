@@ -58,29 +58,23 @@ public class GameplayController : MonoBehaviour
             Debug.Log("Player Controller er ikke initialiseret");
             yield break; // Stop coroutine, da playerController ikke er initialiseret.
         }
-        /*
-                //Hvis playerController.speed.z == 0, stop coroutine og lav en ny for at teste om speed er blevet højere
-                if (playerController.speed.z == 0)
-                {
-                    Debug.Log("playerController speed er 0, GenerateObstacles kaldes igen for at checke");
-                    StartCoroutine("GenerateObstacles");
-                    yield break;
-                }
-        */
 
         //Afvent om playerController.speed.z bliver højere end 0, før der spawnes obstacles
-        while (playerController.speed.z == 0)
+        if (playerController.speed.z == 0)
         {
             Debug.Log("playerController.speed.z == 0. Waiting for speed to rise");
+            yield return new WaitForSecondsRealtime(1f);
+            StartCoroutine("GenerateObstacles");
+            Debug.Log("Prøver at genere obstacles igen");
         }
 
 
         float timer = Random.Range(min_ObstacleDelay, max_ObstacleDelay) / playerController.speed.z;
 
-        Debug.Log("min_ObstacleDelay: " + min_ObstacleDelay);
-        Debug.Log("max_ObstacleDelay: " + max_ObstacleDelay);
-        Debug.Log("playerController.speed.z: " + playerController.speed.z);
-        Debug.Log(timer);
+        //Debug.Log("min_ObstacleDelay: " + min_ObstacleDelay);
+        //Debug.Log("max_ObstacleDelay: " + max_ObstacleDelay);
+        //Debug.Log("playerController.speed.z: " + playerController.speed.z);
+        //Debug.Log(timer);
         yield return new WaitForSeconds(timer);
 
         CreateObstacles(playerController.gameObject.transform.position.z + halfGroundSize);
@@ -92,7 +86,7 @@ public class GameplayController : MonoBehaviour
     private void CreateObstacles(float zPos)
     {
         int r = Random.Range(0, 10);
-        Debug.Log("Create Obstacle");
+        //Debug.Log("Create Obstacle method");
 
         if (0 <= r && r < 7)
         {
@@ -167,34 +161,36 @@ public class GameplayController : MonoBehaviour
     public void PauseGame()
     {
         pausePanel.SetActive(true);
+        playerController.soundManager.Stop();
         Time.timeScale = 0;
     }
 
     public void ResumeGame()
     {
         pausePanel.SetActive(false);
+        playerController.soundManager.Play();
         Time.timeScale = 1;
     }
 
     public void ExitGame()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void Gameover()
     {
         Time.timeScale = 0;
         gameoverPanel.SetActive(true);
+        playerController.soundManager.Stop();
         final_Score.text = "Killed: " + zombie_Kill_Count.ToString();
     }
 
     public void RestartGame()
     {
+        Time.timeScale = 1;
         ResetScore();
         playerHealth.RestartGame();
-
-        Time.timeScale = 1;
 
         SceneManager.LoadScene("Gameplay");
         gameoverPanel.SetActive(false);
