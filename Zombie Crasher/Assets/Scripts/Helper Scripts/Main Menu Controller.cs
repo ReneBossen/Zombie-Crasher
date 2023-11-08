@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -15,5 +16,10 @@ public class MainMenuController : MonoBehaviour
     {
         cameraAnim.Play("Slide");
         tankAnim.Play("Tank Move Forward");
+    }
+
+    public void Shop()
+    {
+        SceneManager.LoadScene("Shop");
     }
 }

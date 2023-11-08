@@ -1,20 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private int healthValue = 100;
+    public int maxHealth;
+    public int healthValue;
     private Slider health_Slider;
     private GameObject UI_Holder;
 
     // Start is called before the first frame update
     void Start()
     {
+        maxHealth = ValuesToKeepBetweenScenes.maxHealth;
+        Debug.Log("Currenct maxHealth: " + maxHealth);
+        Debug.Log("Static maxHealth: " + ValuesToKeepBetweenScenes.maxHealth);
         health_Slider = GameObject.Find("Health Bar").GetComponent<Slider>();
 
-        health_Slider.value = healthValue;
+        healthValue = maxHealth;
+
+        health_Slider.value = maxHealth;
 
         UI_Holder = GameObject.Find("UI Holder");
     }
@@ -39,7 +46,15 @@ public class PlayerHealth : MonoBehaviour
 
     public void RestartGame()
     {
-        healthValue = 100;
+        healthValue = maxHealth;
+        health_Slider.maxValue = healthValue;
         UI_Holder.SetActive(true);
+    }
+
+    public void AddMaxHealth(int amount)
+    {
+        maxHealth += amount;
+        health_Slider.maxValue = healthValue;
+        ValuesToKeepBetweenScenes.maxHealth = maxHealth;
     }
 }

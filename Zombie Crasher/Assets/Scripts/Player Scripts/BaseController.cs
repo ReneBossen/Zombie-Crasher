@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class BaseController : MonoBehaviour
 {
+
+    //Upgradables
+    public float bonusSpeed;
+    public int maxAmmo;
+    public float maxFuel;
+
+    protected int ammo;
+
     public Vector3 speed;
     public float x_Speed = 8f, z_Speed = 10f;
     public float accelerated = 15f, deaccelerated = 5f;
@@ -22,8 +30,19 @@ public class BaseController : MonoBehaviour
     private void Start()
     {
         soundManager = GetComponent<AudioSource>();
-        Debug.Log(soundManager);
+
         speed = new Vector3(0.0f, 0.0f, z_Speed);
+
+        //Assign from local DB
+        bonusSpeed = ValuesToKeepBetweenScenes.bonusSpeed;
+        maxAmmo = ValuesToKeepBetweenScenes.maxAmmo;
+        maxFuel = ValuesToKeepBetweenScenes.maxFuel;
+        ammo = maxAmmo;
+
+        SetCorrectSpeed();
+
+        Debug.Log(bonusSpeed);
+        Debug.Log("Current speed values at start " + deaccelerated + " " + accelerated + " " + z_Speed);
     }
 
     protected void MoveLeft()
@@ -73,5 +92,31 @@ public class BaseController : MonoBehaviour
     protected void MoveFast()
     {
         speed = new Vector3(speed.x, 0f, accelerated);
+    }
+
+    private void SetCorrectSpeed()
+    {
+        deaccelerated += bonusSpeed;
+        accelerated += bonusSpeed;
+        z_Speed += bonusSpeed;
+        Debug.Log("Setting correct speed");
+    }
+
+    public void BuyAmmo(int amount)
+    {
+        maxAmmo += amount;
+        ValuesToKeepBetweenScenes.maxAmmo = maxAmmo;
+    }
+
+    public void BuyFuel(float amount)
+    {
+        maxFuel += amount;
+        ValuesToKeepBetweenScenes.maxFuel = maxFuel;
+    }
+
+    public void BuySpeed(float amount)
+    {
+        bonusSpeed += amount;
+        ValuesToKeepBetweenScenes.bonusSpeed = bonusSpeed;
     }
 }

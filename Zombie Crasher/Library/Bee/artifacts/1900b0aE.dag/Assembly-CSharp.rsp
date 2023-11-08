@@ -364,6 +364,8 @@
 "Assets/Scripts/Helper Scripts/AnimationEvents.cs"
 "Assets/Scripts/Helper Scripts/GameplayController.cs"
 "Assets/Scripts/Helper Scripts/Main Menu Controller.cs"
+"Assets/Scripts/Helper Scripts/Shop Controller.cs"
+"Assets/Scripts/Helper Scripts/ValuesToKeepBetweenScenes.cs"
 "Assets/Scripts/Obstacle Scripts/Destroy After Time.cs"
 "Assets/Scripts/Obstacle Scripts/Explosive Obstacle.cs"
 "Assets/Scripts/Obstacle Scripts/Zombie.cs"

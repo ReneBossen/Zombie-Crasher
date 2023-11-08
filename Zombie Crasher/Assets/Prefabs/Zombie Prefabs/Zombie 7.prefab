@@ -97,6 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloodFxPrefab: {fileID: 1690365919121730, guid: 01905950d6bb84877a984f64b83d6c2d, type: 3}
   speed: 5
+  hitForce: 100
 --- !u!1001 &5791987608948814487
 PrefabInstance:
   m_ObjectHideFlags: 0
