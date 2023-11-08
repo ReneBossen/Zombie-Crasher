@@ -101,16 +101,20 @@ public class PlayerController : BaseController
     {
         if (Time.timeScale != 0)
         {
-            if (canShoot)
+            if (ammo > 0)
             {
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (canShoot)
                 {
-                    GameObject bullet = Instantiate(bullet_Prefab, bullet_StartPoint.position, Quaternion.identity);
-                    bullet.GetComponent<Bullet>().Move(2000f);
-                    shootFX.Play();
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        GameObject bullet = Instantiate(bullet_Prefab, bullet_StartPoint.position, Quaternion.identity);
+                        bullet.GetComponent<Bullet>().Move(2000f);
+                        shootFX.Play();
 
-                    canShoot = false;
-                    shootSliderAnim.Play("Fill");
+                        ammo--;
+                        canShoot = false;
+                        shootSliderAnim.Play("Fill");
+                    }
                 }
             }
         }

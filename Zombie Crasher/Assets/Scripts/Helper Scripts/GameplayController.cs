@@ -13,6 +13,7 @@ public class GameplayController : MonoBehaviour
     [SerializeField] private float min_ObstacleDelay = 10f, max_ObstacleDelay = 40f;
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject gameoverPanel;
+    [SerializeField] private GameObject shopPanel;
     [SerializeField] private TextMeshProUGUI final_Score;
     private PlayerHealth playerHealth;
     private float halfGroundSize;
@@ -195,5 +196,17 @@ public class GameplayController : MonoBehaviour
         SceneManager.LoadScene("Gameplay");
         gameoverPanel.SetActive(false);
         pausePanel.SetActive(false);
+    }
+
+    public void ShowShop()
+    {
+        gameoverPanel.SetActive(false);
+        shopPanel.SetActive(true);
+    }
+
+    public void ExitShop()
+    {
+        shopPanel.SetActive(false);
+        gameoverPanel.SetActive(true);
     }
 }

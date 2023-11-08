@@ -45,12 +45,14 @@
      <Compile Include="Assets\Scripts\Player Scripts\BaseController.cs" />
      <Compile Include="Assets\Scripts\Helper Scripts\Main Menu Controller.cs" />
      <Compile Include="Assets\Scripts\Helper Scripts\GameplayController.cs" />
+     <Compile Include="Assets\Scripts\Helper Scripts\ValuesToKeepBetweenScenes.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Bullet Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\Obstacle Scripts\Destroy After Time.cs" />
      <Compile Include="Assets\Scripts\Obstacle Scripts\Explosive Obstacle.cs" />
      <Compile Include="Assets\Scripts\Block Scripts\GroundBlock.cs" />
+     <Compile Include="Assets\Scripts\Helper Scripts\Shop Controller.cs" />
      <Compile Include="Assets\Scripts\Obstacle Scripts\Zombie.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

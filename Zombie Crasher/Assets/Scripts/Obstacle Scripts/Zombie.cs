@@ -6,6 +6,7 @@ public class Zombie : MonoBehaviour
 {
     [SerializeField] private GameObject bloodFxPrefab;
     [SerializeField] private float speed;
+    [SerializeField] private float hitForce = 100f;
 
     private Rigidbody myBody;
     private bool isAlive;
@@ -55,6 +56,7 @@ public class Zombie : MonoBehaviour
         if (other.gameObject.tag == "Player" || other.gameObject.tag == "Bullet")
         {
             Instantiate(bloodFxPrefab, transform.position, Quaternion.identity);
+            other.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 0f, -hitForce));
 
             Invoke("DeactivateGameObject", 3f);
 
