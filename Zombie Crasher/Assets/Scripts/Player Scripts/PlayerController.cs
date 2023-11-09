@@ -7,6 +7,8 @@ public class PlayerController : BaseController
 {
     private Rigidbody myBody;
     private Animator shootSliderAnim;
+    private Slider fuel_Slider;
+    private GameObject UI_Holder;
 
     [SerializeField] private Transform bullet_StartPoint;
     [SerializeField] private GameObject bullet_Prefab;
@@ -17,8 +19,16 @@ public class PlayerController : BaseController
     {
         myBody = GetComponent<Rigidbody>();
         shootSliderAnim = GameObject.Find("Fire Bar").GetComponent<Animator>();
+        fuel_Slider = GameObject.Find("Fuel Bar").GetComponent<Slider>();
+        UI_Holder = GameObject.Find("UI Holder");
 
         canShoot = true;
+    }
+
+    private void Start()
+    {
+        fuel_Slider.maxValue = maxFuel;
+        Debug.Log(fuel_Slider);
     }
 
     private void Update()
@@ -27,6 +37,7 @@ public class PlayerController : BaseController
         ChangeRotation();
 
         ShootingControl();
+        Debug.Log("Fuel: " + fuel);
     }
 
     private void FixedUpdate()
@@ -42,35 +53,49 @@ public class PlayerController : BaseController
 
     private void ControllMovement()
     {
-        if (Input.GetAxisRaw("Horizontal") > 0)
+        if (fuel > 0)
         {
-            //Debug.Log("Højre");
-            MoveRight();
-        }
-        else if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            //Debug.Log("Venstre");
-            MoveLeft();
+            if (Input.GetAxisRaw("Horizontal") > 0)
+            {
+                //Debug.Log("Højre");
+                MoveRight();
+            }
+            else if (Input.GetAxisRaw("Horizontal") < 0)
+            {
+                //Debug.Log("Venstre");
+                MoveLeft();
+            }
+            else
+            {
+                //Debug.Log("Kører lige frem");
+                MoveStraight();
+            }
+            if (Input.GetAxisRaw("Vertical") > 0)
+            {
+                //Debug.Log("Frem");
+                MoveFast();
+                //Fuel use = 1.6
+                UseFuel(1.6f);
+            }
+            else if (Input.GetAxisRaw("Vertical") < 0)
+            {
+                //Debug.Log("Tilbage");
+                MoveSlow();
+                //Fuel Use = .7
+                UseFuel(0.7f);
+            }
+            else
+            {
+                //Debug.Log("Kører normal hastighed");
+                MoveNormal();
+                //Fuel use = 1
+                UseFuel(1f);
+            }
         }
         else
         {
-            //Debug.Log("Kører lige frem");
-            MoveStraight();
-        }
-        if (Input.GetAxisRaw("Vertical") > 0)
-        {
-            //Debug.Log("Frem");
-            MoveFast();
-        }
-        else if (Input.GetAxisRaw("Vertical") < 0)
-        {
-            //Debug.Log("Tilbage");
-            MoveSlow();
-        }
-        else
-        {
-            //Debug.Log("Kører normal hastighed");
-            MoveNormal();
+            UI_Holder.SetActive(false);
+            GameplayController.instance.Gameover();
         }
     }
 
@@ -118,5 +143,11 @@ public class PlayerController : BaseController
                 }
             }
         }
+    }
+
+    private void UseFuel(float fuelAmount)
+    {
+        fuel -= fuelAmount * Time.deltaTime;
+        fuel_Slider.value = fuel;
     }
 }

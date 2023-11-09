@@ -11,6 +11,7 @@ public class BaseController : MonoBehaviour
     public float maxFuel;
 
     protected int ammo;
+    protected float fuel;
 
     public Vector3 speed;
     public float x_Speed = 8f, z_Speed = 10f;
@@ -38,6 +39,7 @@ public class BaseController : MonoBehaviour
         maxAmmo = ValuesToKeepBetweenScenes.maxAmmo;
         maxFuel = ValuesToKeepBetweenScenes.maxFuel;
         ammo = maxAmmo;
+        fuel = maxFuel;
 
         SetCorrectSpeed();
 

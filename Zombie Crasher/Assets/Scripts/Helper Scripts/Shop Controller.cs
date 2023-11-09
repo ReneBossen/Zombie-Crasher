@@ -10,7 +10,7 @@ public class ShopController : MonoBehaviour
     private PlayerHealth playerHealth;
 
     //Buy Values
-    [SerializeField] private int BuyAmmoAmount = 1;
+    [SerializeField] private int buyAmmoAmount = 1;
     [SerializeField] private int buyHealthAmount = 5;
     [SerializeField] private int buySpeedAmount = 1;
     [SerializeField] private float buyFuelAmount = 5f;
@@ -29,7 +29,7 @@ public class ShopController : MonoBehaviour
 
     public void BuyAmmo()
     {
-        player.BuyAmmo(BuyAmmoAmount);
+        player.BuyAmmo(buyAmmoAmount);
     }
 
     public void BuyFuel()

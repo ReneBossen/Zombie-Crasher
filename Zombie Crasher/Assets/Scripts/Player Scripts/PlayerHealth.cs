@@ -15,8 +15,8 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         maxHealth = ValuesToKeepBetweenScenes.maxHealth;
-        Debug.Log("Currenct maxHealth: " + maxHealth);
-        Debug.Log("Static maxHealth: " + ValuesToKeepBetweenScenes.maxHealth);
+        //Debug.Log("Currenct maxHealth: " + maxHealth);
+        //Debug.Log("Static maxHealth: " + ValuesToKeepBetweenScenes.maxHealth);
         health_Slider = GameObject.Find("Health Bar").GetComponent<Slider>();
 
         healthValue = maxHealth;
